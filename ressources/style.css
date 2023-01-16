@@ -109,7 +109,8 @@ div > div > ul > li:hover p {
     margin-bottom: 100px;
 }
 
-@media (min-width: 800px)
+/* Tablette et Laptop */
+@media (min-width: 1200px) and (max-width: 1400px)
 {
     #top, #series, #documentaires, #autres{
         scroll-margin-top: 200px;
@@ -149,5 +150,72 @@ div > div > ul > li:hover p {
         margin-left: 3.5%;
         z-index: 2;
         max-width: 25%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1400px)
+{
+    #top, #series, #documentaires, #autres{
+        scroll-margin-top: 200px;
+    }
+    #films{
+        scroll-margin-top: 250px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .categories{
+        display: flex;
+        flex-direction: row;
+        gap: 65px;
+    }
+    div{
+        min-width: 250px;
+        min-height: 100px;
+        margin: 50px;
+    }
+    p:first-child{
+        font-size: 1.5rem;
+    }
+    .nav > div > p:last-child{
+        display: none;
+    }
+    ul{
+        flex-direction: row;
+        gap: 20px;
+    }
+    div > div > ul > li > p {
+        opacity: 0;
+        position: absolute;
+        margin-top: -12%;
+        margin-left: 1.5%;
+        z-index: 2;
+        max-width: 20%;
+        text-align: center;
+    }
+    img {
+        max-width: 400px;
+        max-height: 250px;
+        min-width: 400px;
+        min-height: 250px;
+    }
+    li > img{
+        min-width: 400px;
+        min-height: 250px;
+        opacity: 0.8;
+        transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
+    }
+    li:hover > img{
+        min-width: 450px;
+        min-height: 300px;
+        opacity: 1;
+    }
+    #autres > ul > li > p{
+        margin-top: -10%;
+        margin-left: 9%;
+        font-size: 2rem;
     }
 }
