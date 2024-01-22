@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./ressources/style.css">
+    <script src="./ressources/script.js" defer></script>
     <link rel="icon" type="image/png" href="./ressources/images/favicon.png" />
     <title>MyFlix</title>
 </head>
@@ -15,16 +16,16 @@
             <p>Cliquez sur un programme pour lire le descriptif</p>
         </div>
         <ul class="categories">
-            <li><a href="#films">Films</a></li>
-            <li><a href="#series">Series</a></li>
-            <li><a href="#documentaires">Documentaires</a></li>
-            <li><a href="#autres">Suggestions</a></li>
+            <li><button class="films">Films</button></li>
+            <li><button class="series">Series</button></li>
+            <li><button class="documentaires">Documentaires</button></li>
+            <li><button class="suggestions">Suggestions</button></li>
         </ul>
     </div>
 
     <div class="test">
-        <p>Film Horreur</p>
-        <div class="program_container" id="films">
+        <p id="films">Film Horreur</p>
+        <div class="program_container">
             <ul>
                 <li>
                     <img src="./ressources/images/killer_movie.jpg" alt="">
@@ -43,8 +44,8 @@
     </div>
 
     <div>
-        <p>Série Horreur</p>
-        <div class="program_container" id="series">
+        <p id="series">Série Horreur</p>
+        <div class="program_container">
             <ul>
                 <li>
                     <img src="./ressources/images/not_alone_yet_serie.jpg" alt="">
@@ -62,8 +63,8 @@
         </div>
     </div>
     <div>
-        <p>Documentaires Horreur</p>
-        <div class="program_container" id="documentaires">
+        <p id="documentaires">Documentaires Horreur</p>
+        <div class="program_container">
             <ul>
                 <li>
                     <img src="./ressources/images/stairs_report.jpg" alt="">
@@ -81,7 +82,7 @@
         </div>
     </div>
     <div> 
-        <p>Découvrir d'autres thèmes ?</p>
+        <p id="suggestions">Découvrir d'autres thèmes ?</p>
         <div class="program_container" id="autres">
             <ul>
                 <li>
@@ -101,7 +102,7 @@
     </div>
 
     <div class="go_to_top">
-        <a href="#top">↑</a>
+        <button class="onTop">↑</button>
     </div>
 
 </body>
