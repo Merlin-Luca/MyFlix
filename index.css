@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "BebasNeue-Regular";
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("./ressources/fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+   
+body{
+    background-color: black;
+    color: white;
+}
+   
+
+
+
+.contenues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.en-tete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.en-tete > div{
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
+.en-tete > p{
+    height: 40vh;
+    border: 1px solid white;
+}
+.en-tete > div > h1{
+    color: red;
+    font-size: 150px;
+    margin: 0;
+}
+.en-tete > div > p, .en-tete > div > div > p{
+    font-size: 25px;
+    margin: 0;
+}
+.en-tete > div > div{
+    margin: 75px 0;
+}
+.en-tete > div > div > p{
+    margin: 25px 0;
+}
+.en-tete > div > div > a{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 50px 0 !important;
+    border-radius: 20px;
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    font-size: 25px;
+}
+
+.conditions, .conditions > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 20px;
+}
+.conditions{
+    flex-direction: column;
+}
