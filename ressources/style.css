@@ -20,13 +20,17 @@
     padding: 10px;
     text-align: center;
     display: flex;
-    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #efefef;
     z-index: 2;
     bottom: 0px;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 20px;
     transition: opacity 1s ease-out;
+    width: 65%;
+    max-width: 500px;
   }
   .hey_listen > span {
     position: absolute;
@@ -187,8 +191,10 @@ body{
 }
 .circle{
     position: fixed;
-    width: 250px; 
-    height: 250px;
+    width: 125px; 
+    height: 125px;
+    min-width: 125px;
+    min-height: 125px;
     border-radius: 50%;
     border: 7px solid transparent;
     border-top-color: red;
@@ -398,6 +404,12 @@ div > div > ul > li:hover p {
     .go_to_top {
         margin-top: 50px; 
         margin-bottom: 50px;
+    }
+    #carousel{
+        padding: 0;
+    }
+    .slider{
+        margin: 0;
     }
 }
 /* Tablette */

@@ -17,27 +17,21 @@ body{
 }
 .hey_listen{
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #0b0b0b;
     color: #efefef;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    display: flex;
     border: 2px solid black;
     z-index: 2;
-    bottom: 20px;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 18px;
-  }
-  .hey_listen > span {
-    position: absolute;
-    font-size: 15px;
-    cursor: pointer;
-    border: 2px solid black;
-    border-radius: 100%;
-    padding: 1px 5px;
-    top: 10px;
-    right: 10px;
+    width: 70%;
+    border: 2px solid #efefef;
   }
   /* pop-up */
 
