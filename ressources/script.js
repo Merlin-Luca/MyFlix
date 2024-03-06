@@ -22,9 +22,9 @@ documentaires.addEventListener('click', ()=>{
 })
 
 let suggestions = document.querySelector('.suggestions');
-let suggestions_cible = document.getElementById('suggestions')
 suggestions.addEventListener('click', ()=>{
-    window.scrollTo(0, suggestions_cible.offsetTop - 100);
+    console.log(suggestions_cible.offsetTop);
+    window.scrollTo(0, documentaires_cible.offsetTop + 100);
 })
 
 let loaderScreen = document.querySelector(".loader")

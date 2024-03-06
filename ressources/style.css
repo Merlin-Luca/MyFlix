@@ -334,7 +334,9 @@ div > div > ul > li > p {
     position: relative;
     margin: 20px 0;
 }
-
+#autres{
+    position: relative;
+}
 #autres > ul > li > p{
     font-size: 2rem;
 }
