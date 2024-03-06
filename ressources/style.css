@@ -424,6 +424,10 @@ div > div > ul > li:hover p {
     .nav{
         margin-top: 0;
     }
+    .circle{
+        width: 250px; 
+        height: 250px;
+    }
 }
 /* Plus grand que telephone */
 @media (min-width: 1250px)
