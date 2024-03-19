@@ -48,7 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75vh;
+    height: 100vh;
 }
 .en-tete{
     animation: fadeIn 2s;
@@ -105,6 +105,8 @@ body{
     gap: 0px 20px;
 }
 .conditions{
+    position: absolute;
+    bottom: 15%;
     flex-direction: column;
 }
 
@@ -129,6 +131,7 @@ body{
         background-color: rgb(22, 19, 19);
         width: 100%;
         padding: 5% 0;
+        bottom: 0;
     }
     .conditions, .conditions > ul{
         flex-wrap: wrap;
