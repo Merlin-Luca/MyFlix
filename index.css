@@ -42,13 +42,13 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 .en-tete{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 .en-tete{
     animation: fadeIn 2s;
@@ -111,7 +111,7 @@ body{
 }
 
 /* Phone */
-@media (min-width: 100px) and (max-width: 1000px)
+@media (min-width: 100px) and (max-width: 1400px)
 {
     .en-tete{
         flex-direction: column;
@@ -123,6 +123,20 @@ body{
     .en-tete > div > div{
         margin: 5px 0;
     }
+    .en-tete > div > h1 {
+        font-size: 70px;
+    }
+    .en-tete > div > p, .en-tete > div > div > p {
+        font-size: 15px;
+    }
+    .en-tete > div > div > a {
+        font-size: 15px;
+    }
+    .hey_listen {
+        top: 15%;
+        font-size: 15px;
+        width: 75%;
+    }
     .en-tete > p {
         width: 80%;
         height: 0;
@@ -130,16 +144,45 @@ body{
     .conditions{
         background-color: rgb(22, 19, 19);
         width: 100%;
-        padding: 5% 0;
+        padding: 2% 0;
         bottom: 0;
     }
     .conditions, .conditions > ul{
         flex-wrap: wrap;
-        font-size: 15px;
+        font-size: 10px;
+        gap: 5px;
+    }
+    .conditions > ul{
+        padding: 5px 20px;
+    }
+}
+/* Tablette */
+@media (min-width: 750px) and (max-width: 1400px)
+{
+    .en-tete > div > h1 {
+        font-size: 150px;
+    }
+    .en-tete > div > p, .en-tete > div > div > p, .en-tete > div > div > a {
+        font-size: 30px;
+    }
+    .hey_listen {
+        font-size: 30px;
+        width: 75%;
+    }
+    .en-tete > p {
+        width: 80%;
+        height: 0;
+    }
+    .conditions, .conditions > ul{
+        flex-wrap: wrap;
+        font-size: 17px;
         gap: 10px;
     }
     .conditions > ul{
         padding: 5px 20px;
+    }
+    .en-tete{
+        gap: 15px;
     }
 }
 
