@@ -26,7 +26,7 @@ body{
     text-align: center;
     border: 2px solid black;
     z-index: 2;
-    top: 10%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%); 
     font-size: 18px;
@@ -105,9 +105,8 @@ body{
     gap: 0px 20px;
 }
 .conditions{
-    position: absolute;
-    bottom: 15%;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 /* Phone */
@@ -115,7 +114,6 @@ body{
 {
     .en-tete{
         flex-direction: column;
-        height: 95vh;
     }
     .en-tete > div{
         padding: 10px;
@@ -133,7 +131,7 @@ body{
         font-size: 15px;
     }
     .hey_listen {
-        top: 15%;
+        top: 85%;
         font-size: 15px;
         width: 75%;
     }
@@ -142,10 +140,10 @@ body{
         height: 0;
     }
     .conditions{
-        background-color: rgb(22, 19, 19);
         width: 100%;
         padding: 2% 0;
         bottom: 0;
+        align-self: flex-end;
     }
     .conditions, .conditions > ul{
         flex-wrap: wrap;
@@ -155,6 +153,7 @@ body{
     .conditions > ul{
         padding: 5px 20px;
     }
+
 }
 /* Tablette */
 @media (min-width: 750px) and (max-width: 1400px)

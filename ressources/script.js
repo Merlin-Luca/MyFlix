@@ -32,6 +32,9 @@ let page = document.querySelector(".page")
 
 function load(){
     setTimeout(()=>{
+        window.scrollTo(0, document.body.offsetTop);
+    }, 350)
+    setTimeout(()=>{
     loaderScreen.style.display = "none";
     }, 1450)
 }
