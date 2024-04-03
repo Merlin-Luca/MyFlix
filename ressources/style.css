@@ -295,7 +295,6 @@ ul{
 }
 .program_container{
     margin: 0%;
-    max-width: 1200px;
 }
 
 li > img{
@@ -415,7 +414,7 @@ div > div > ul > li:hover p {
     }
 }
 /* Tablette */
-@media (min-width: 950px)
+@media (min-width: 1250px)
 {
     #carousel {
         display: flex;
@@ -510,7 +509,7 @@ div > div > ul > li:hover p {
 }
 
 /* Desktop */
-@media (min-width: 1400px)
+@media (min-width: 1550px)
 {
     li > img{
         min-width: 400px;
