@@ -2,6 +2,8 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -webkit-box-sizing: padding-box;
  list-style: none;
  font-family: "BebasNeue-Regular";
  scroll-behavior: smooth !important;
@@ -469,7 +471,7 @@ div > div > ul > li:hover p {
     }
     li > img{
         transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
-        /* border-radius: 20px; */
+        border-radius: 20px;
     }
     li{
         border-radius: 20px;
@@ -518,6 +520,14 @@ div > div > ul > li:hover p {
     li > img{
         min-width: 400px;
         min-height: 250px;
+        transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
+    }
+}
+/* Safari Bug */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    li > img{
+        width: 400px;
+        height: 250px;
     }
 }
 
