@@ -135,7 +135,7 @@ body{
 }
 .slide_style > img{
     width: 100%;
-    /* aspect-ratio: 16/9; */
+    aspect-ratio: 16/9;
 }
 .slide_style > p{
     margin: 5px 5%;
