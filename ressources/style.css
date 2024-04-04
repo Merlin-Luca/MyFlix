@@ -473,6 +473,7 @@ div > div > ul > li:hover p {
     }
     li{
         border-radius: 20px;
+        display : block;
     }
     li:hover{
         transform: translateY(-5px);
