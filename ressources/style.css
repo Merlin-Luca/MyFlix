@@ -461,18 +461,18 @@ div > div > ul > li:hover p {
         justify-content: space-evenly;
     }
     .program_container > ul > li{
-        /* margin: 20px; */
+        margin: 20px;
         flex-direction: column;
     }
-    /* .program_container > ul > li > h2{
+    .program_container > ul > li > h2{
         padding: 20px 0;
-    } */
+    }
     li > img{
         transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
-        /* border-radius: 20px; */
+        border-radius: 20px;
     }
     li{
-        /* border-radius: 20px; */
+        border-radius: 20px;
         display : block;
     }
     li:hover{
@@ -514,13 +514,13 @@ div > div > ul > li:hover p {
 }
 
 /* Desktop */
-@media (min-width: 1550px)
+/* @media (min-width: 1550px)
 {
     li > img{
         min-width: 400px;
         min-height: 250px;
         transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
     }
-}
+} */
 
 
