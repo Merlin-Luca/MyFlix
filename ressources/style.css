@@ -301,7 +301,7 @@ li > img{
     min-width: 350px;
     min-height: 200px;
     opacity: 0.8;
-    transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
+    /* transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s; */
 }
 img {
     max-width: 350px;
@@ -468,7 +468,7 @@ div > div > ul > li:hover p {
         padding: 20px 0;
     }
     li > img{
-        transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
+        /* transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s; */
         border-radius: 20px;
     }
     li{
@@ -517,8 +517,8 @@ div > div > ul > li:hover p {
 @media (min-width: 1550px)
 {
     li > img{
-        width: 400px;
-        height: 250px;
+        min-width: 400px;
+        min-height: 250px;
         /* transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s; */
     }
 }
