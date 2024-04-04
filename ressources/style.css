@@ -517,8 +517,8 @@ div > div > ul > li:hover p {
 @media (min-width: 1550px)
 {
     li > img{
-        min-width: 400px;
-        min-height: 250px;
+        width: 400px;
+        height: 250px;
         /* transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s; */
     }
 }
