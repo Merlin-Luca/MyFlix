@@ -483,17 +483,21 @@ div > div > ul > li:hover p {
     }
     .program_container > ul > li:hover{
         box-shadow: 0px 3px 10px rgba(255, 0, 0, 1);
+        -webkit-box-shadow: 0px 3px 10px rgba(255, 0, 0, 1);
     }
     #autres > ul > li:hover{
         font-size: 2rem;
         box-shadow: 0px 0px 12px rgb(210, 27, 216);
+        -webkit-box-shadow: 0px 0px 12px rgb(210, 27, 216);
     }
     #autres > ul > li:first-child:hover{
         font-size: 2rem;
         box-shadow: 0px 0px 12px rgb(27, 93, 216);
+        -webkit-box-shadow: 0px 0px 12px rgb(27, 93, 216);
     }#autres > ul > li:last-child:hover{
         font-size: 2rem;
         box-shadow: 0px 0px 12px rgb(216, 172, 27);
+        -webkit-box-shadow: 0px 0px 12px rgb(216, 172, 27);
     }
     #autres > ul > li > p{
         font-size: 2rem;
