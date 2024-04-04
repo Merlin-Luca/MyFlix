@@ -354,7 +354,7 @@ div > div > ul > li:hover p {
     margin-bottom: 100px;
 }
 .go_to_top > button {
-    outline: 4px solid white;
+    box-shadow: 0 0 0 4px white;
     font-size: 3.5rem;
     padding: 15px 40px 15px 40px;
     cursor: pointer;
