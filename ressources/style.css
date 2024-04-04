@@ -2,8 +2,6 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- -webkit-box-sizing: border-box;
- -webkit-box-sizing: padding-box;
  list-style: none;
  font-family: "BebasNeue-Regular";
  scroll-behavior: smooth !important;
@@ -137,7 +135,7 @@ body{
 }
 .slide_style > img{
     width: 100%;
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
 }
 .slide_style > p{
     margin: 5px 5%;
@@ -521,13 +519,6 @@ div > div > ul > li:hover p {
         min-width: 400px;
         min-height: 250px;
         transition: min-width 0.5s, min-height 0.5s, transform 1s, opacity 0.5s;
-    }
-}
-/* Safari Bug */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    li > img{
-        width: 400px;
-        height: 250px;
     }
 }
 
