@@ -122,17 +122,17 @@ body{
         margin: 5px 0;
     }
     .en-tete > div > h1 {
-        font-size: 70px;
+        font-size: 6em;
     }
     .en-tete > div > p, .en-tete > div > div > p {
-        font-size: 15px;
+        font-size: 1.2em;
     }
     .en-tete > div > div > a {
-        font-size: 15px;
+        font-size: 1.2em;
     }
     .hey_listen {
         top: 85%;
-        font-size: 15px;
+        font-size: 1.1em;
         width: 75%;
     }
     .en-tete > p {
@@ -147,7 +147,7 @@ body{
     }
     .conditions, .conditions > ul{
         flex-wrap: wrap;
-        font-size: 10px;
+        font-size: 12px;
         gap: 5px;
     }
     .conditions > ul{
